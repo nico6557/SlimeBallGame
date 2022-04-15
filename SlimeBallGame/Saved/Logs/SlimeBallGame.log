@@ -2144,3 +2144,1356 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.15-21.25.26:669][ 32]LogFileHelpers: Loading map 'saw' took 0.109
 [2022.04.15-21.25.26:682][ 32]AssetCheck: New page: Asset Save: The_Tarr_SP
 [2022.04.15-21.25.26:682][ 32]LogContentValidation: Display: Validating Texture2D /Game/Materials/The_Tarr_SP.The_Tarr_SP
+[2022.04.15-21.25.57:140][787]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/objectiveslime.objectiveslime
+[2022.04.15-21.27.20:332][831]LogEditorViewport: Clicking Background
+[2022.04.15-21.28.00:434][977]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/saw.saw
+[2022.04.15-21.28.45:620][175]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/lightningSlimeBP.lightningSlimeBP
+[2022.04.15-21.29.02:259][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.04.15-21.29.08:462][828]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.04.15-21.29.10:529][ 70]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.29.10:534][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.29.10:534][ 70]PIE: New page: PIE session: saw (Apr 15, 2022, 7:29:10 AM)
+[2022.04.15-21.29.10:534][ 70]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.29.10:539][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004361s)
+[2022.04.15-21.29.10:539][ 70]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.29.10:540][ 70]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2022.04.15-21.29.10:540][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.005309s)
+[2022.04.15-21.29.10:574][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.04.15-21.29.10:578][ 70]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.04.15-21.29.10:578][ 70]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.29.10:578][ 70]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.29.10:578][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.29.10:578][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.29.10:578][ 70]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.29.10:578][ 70]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.29.10:578][ 70]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.29.10:578][ 70]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.29.10:579][ 70]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.29.10:579][ 70]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.29.10:579][ 70]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.29.10:579][ 70]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.29.10:583][ 70]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.29.10:583][ 70]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.29.10:592][ 70]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.29.10:592][ 70]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.29.10:593][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.29.10:593][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.29.10:593][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.29.10:593][ 70]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.29.10:593][ 70]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.29.10:594][ 70]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.29.10:594][ 70]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.29.10:594][ 70]LogInit: FAudioDevice initialized.
+[2022.04.15-21.29.10:594][ 70]LogAudio: Display: Audio Device (ID: 5) registered with world 'saw'.
+[2022.04.15-21.29.10:609][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.29.10:609][ 70]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.29.10:611][ 70]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.29.10
+[2022.04.15-21.29.10:611][ 70]LogWorld: Bringing up level for play took: 0.002127
+[2022.04.15-21.29.10:612][ 70]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.04.15-21.29.10:617][ 70]PIE: Server logged in
+[2022.04.15-21.29.10:619][ 70]PIE: Play in editor total start time 0.086 seconds.
+[2022.04.15-21.29.12:735][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.29.12:735][306]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.29.12:735][306]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.29.12:740][306]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.29.12:740][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.29.12:749][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.29.12:763][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.29.12:791][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.15-21.29.12:791][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.29.12:792][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.29.12:796][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.04.15-21.29.12:820][307]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.04.15-21.29.16:506][740]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Naruto_OST_Fooling_Mode)
+[2022.04.15-21.29.17:364][835]Cmd: DELETE
+[2022.04.15-21.29.17:364][835]Cmd: ACTOR DELETE
+[2022.04.15-21.29.17:366][835]LogEditorActor: Deleted Actor: AmbientSound
+[2022.04.15-21.29.17:399][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.04.15-21.29.17:400][835]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2022.04.15-21.30.43:207][366]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.30.43:214][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.30.43:215][366]PIE: New page: PIE session: saw (Apr 15, 2022, 7:30:43 AM)
+[2022.04.15-21.30.43:215][366]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.30.43:222][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007194s)
+[2022.04.15-21.30.43:223][366]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.30.43:223][366]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2022.04.15-21.30.43:223][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.008217s)
+[2022.04.15-21.30.43:283][366]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.04.15-21.30.43:284][366]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.04.15-21.30.43:284][366]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.30.43:284][366]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.30.43:284][366]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.30.43:284][366]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.30.43:284][366]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.30.43:284][366]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.30.43:284][366]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.30.43:284][366]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.30.43:285][366]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.30.43:285][366]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.30.43:285][366]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.30.43:285][366]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.30.43:287][366]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.30.43:287][366]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.30.43:293][366]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.30.43:294][366]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.30.43:294][366]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.30.43:294][366]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.30.43:294][366]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.30.43:294][366]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.30.43:294][366]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.30.43:295][366]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.30.43:295][366]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.30.43:295][366]LogInit: FAudioDevice initialized.
+[2022.04.15-21.30.43:295][366]LogAudio: Display: Audio Device (ID: 6) registered with world 'saw'.
+[2022.04.15-21.30.43:312][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.30.43:312][366]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.30.43:315][366]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.30.43
+[2022.04.15-21.30.43:315][366]LogWorld: Bringing up level for play took: 0.003221
+[2022.04.15-21.30.43:316][366]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.04.15-21.30.43:321][366]PIE: Server logged in
+[2022.04.15-21.30.43:322][366]PIE: Play in editor total start time 0.11 seconds.
+[2022.04.15-21.30.49:042][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.49:042][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.49:042][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.49:042][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.49:043][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.49:043][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.49:043][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.49:043][ 47]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.30.50:235][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.30.50:235][185]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.30.50:235][185]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.30.50:240][185]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.30.50:240][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.30.50:248][185]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.30.50:257][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.30.50:285][185]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.15-21.30.50:285][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.30.50:286][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.30.50:291][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.04.15-21.30.50:296][185]LogActorComponent: ReregisterComponent: (/Game/saw.saw:PersistentLevel.Naruto_OST_Fooling_Mode_2.AudioComponent0) Not currently registered. Aborting.
+[2022.04.15-21.30.50:314][186]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.04.15-21.31.13:614][900]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.31.13:619][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.31.13:620][900]PIE: New page: PIE session: saw (Apr 15, 2022, 7:31:13 AM)
+[2022.04.15-21.31.13:620][900]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.31.13:626][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006116s)
+[2022.04.15-21.31.13:626][900]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.31.13:627][900]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2022.04.15-21.31.13:627][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.007070s)
+[2022.04.15-21.31.13:663][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.04.15-21.31.13:665][900]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.31.13:665][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.31.13:665][900]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.31.13:665][900]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.31.13:665][900]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.31.13:665][900]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.31.13:668][900]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.31.13:668][900]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.31.13:675][900]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.31.13:675][900]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.31.13:675][900]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.31.13:675][900]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.31.13:675][900]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.31.13:675][900]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.31.13:675][900]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.31.13:676][900]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.31.13:676][900]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.31.13:676][900]LogInit: FAudioDevice initialized.
+[2022.04.15-21.31.13:676][900]LogAudio: Display: Audio Device (ID: 7) registered with world 'saw'.
+[2022.04.15-21.31.13:687][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.31.13:687][900]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.31.13:690][900]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.31.13
+[2022.04.15-21.31.13:690][900]LogWorld: Bringing up level for play took: 0.003224
+[2022.04.15-21.31.13:691][900]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.04.15-21.31.13:695][900]PIE: Server logged in
+[2022.04.15-21.31.13:696][900]PIE: Play in editor total start time 0.078 seconds.
+[2022.04.15-21.31.17:814][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.17:815][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.17:815][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.17:815][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.17:815][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.17:816][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.17:816][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.17:816][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.22:105][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.31.22:105][896]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.31.22:105][896]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.31.22:109][896]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.31.22:110][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.31.22:116][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.31.22:125][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.31.22:154][896]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.15-21.31.22:154][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.31.22:155][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.31.22:161][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.04.15-21.31.22:167][896]LogActorComponent: ReregisterComponent: (/Game/saw.saw:PersistentLevel.Naruto_OST_Fooling_Mode_2.AudioComponent0) Not currently registered. Aborting.
+[2022.04.15-21.31.22:186][897]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.04.15-21.31.32:243][ 66]Cmd: TRANSACTION UNDO
+[2022.04.15-21.31.32:243][ 66]LogEditorTransaction: Undo Scale Actors
+[2022.04.15-21.31.32:248][ 66]LogMaterial: Display: Missing cached shadermap for friendlySlimeMAT in PCD3D_SM5, Default, SM5 (DDC key hash: 6C809F2BE8E000640214F3356D9B976111F7E04A), compiling. 
+[2022.04.15-21.31.32:251][ 66]LogMaterial: Display: Missing cached shadermap for Boss2Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 706F41FC39F232BC93391528E30562E47AA5D6A0), compiling. 
+[2022.04.15-21.31.32:257][ 66]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.15-21.31.32:257][ 66]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.31.32:257][ 66]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.31.32:257][ 66]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.15-21.31.32:257][ 66]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.31.32:257][ 66]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.31.32:319][ 68]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.15-21.31.32:319][ 68]LogShaderCompilers: Display: Total job queries 597, among them cache hits 317 (53.10%)
+[2022.04.15-21.31.32:319][ 68]LogShaderCompilers: Display: Tracking 270 distinct input hashes that result in 140 distinct outputs (51.85%)
+[2022.04.15-21.31.32:319][ 68]LogShaderCompilers: Display: RAM used: 0.94 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2022.04.15-21.31.32:319][ 68]LogShaderCompilers: Display: ================================================
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Base pass shader: 123 instructions
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 197 instructions
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Base pass shader: 123 instructions
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 197 instructions
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.31.32:333][ 69]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.31.45:865][629]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw2)
+[2022.04.15-21.31.55:559][747]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.31.55:564][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.31.55:564][747]PIE: New page: PIE session: saw (Apr 15, 2022, 7:31:55 AM)
+[2022.04.15-21.31.55:564][747]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.31.55:570][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006756s)
+[2022.04.15-21.31.55:571][747]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.31.55:572][747]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2022.04.15-21.31.55:572][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.007846s)
+[2022.04.15-21.31.55:621][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.04.15-21.31.55:622][747]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.31.55:622][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.31.55:622][747]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.31.55:622][747]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.31.55:622][747]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.31.55:622][747]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.31.55:625][747]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.31.55:625][747]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.31.55:631][747]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.31.55:632][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.31.55:632][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.31.55:632][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.31.55:632][747]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.31.55:632][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.31.55:632][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.31.55:633][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.31.55:633][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.31.55:633][747]LogInit: FAudioDevice initialized.
+[2022.04.15-21.31.55:633][747]LogAudio: Display: Audio Device (ID: 8) registered with world 'saw'.
+[2022.04.15-21.31.55:649][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.31.55:649][747]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.31.55:653][747]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.31.55
+[2022.04.15-21.31.55:653][747]LogWorld: Bringing up level for play took: 0.003443
+[2022.04.15-21.31.55:653][747]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.04.15-21.31.55:658][747]PIE: Server logged in
+[2022.04.15-21.31.55:659][747]PIE: Play in editor total start time 0.096 seconds.
+[2022.04.15-21.31.58:898][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.58:899][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.58:899][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.58:899][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.58:900][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.58:900][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.58:900][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.31.58:900][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.32.00:834][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.32.00:835][358]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.32.00:835][358]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.32.00:839][358]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.32.00:839][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.32.00:848][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.32.00:856][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.32.00:884][358]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.15-21.32.00:885][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.32.00:885][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.32.00:890][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.04.15-21.32.00:896][358]LogActorComponent: ReregisterComponent: (/Game/saw.saw:PersistentLevel.Naruto_OST_Fooling_Mode_2.AudioComponent0) Not currently registered. Aborting.
+[2022.04.15-21.32.00:914][359]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.04.15-21.32.19:034][497]LogEditorTransaction: Undo Modify Component(s)
+[2022.04.15-21.32.19:059][497]LogMaterial: Display: Missing cached shadermap for friendlySlimeMAT in PCD3D_SM5, Default, SM5 (DDC key hash: 37D10158469F3B2D7780FF5A34A1B6867BEF6334), compiling. 
+[2022.04.15-21.32.19:061][497]LogMaterial: Display: Missing cached shadermap for Boss2Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6F05EE25DA42F31362F41C5A1840A1948C5E4F1F), compiling. 
+[2022.04.15-21.32.19:067][497]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.15-21.32.19:067][497]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.32.19:067][497]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.32.19:067][497]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.15-21.32.19:067][497]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.32.19:067][497]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Base pass shader: 123 instructions
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 197 instructions
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Base pass shader: 123 instructions
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 197 instructions
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.15-21.32.19:139][500]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.15-21.32.52:123][857]BlueprintLog: New page: Compile saw
+[2022.04.15-21.32.52:451][857]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2022.04.15-21.32.52:791][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/saw" FILE="../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/Blueprints/saw.uasset" SILENT=true
+[2022.04.15-21.32.52:801][887]LogSavePackage: Moving '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Saved/sawCF5864304D9D089851681DBCD3EB602B.tmp' to '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/Blueprints/saw.uasset'
+[2022.04.15-21.32.52:813][887]AssetCheck: New page: Asset Save: saw
+[2022.04.15-21.32.52:813][887]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/saw.saw
+[2022.04.15-21.32.55:430][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/saw" FILE="../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.15-21.32.55:460][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2022.04.15-21.32.55:483][189]LogSavePackage: Moving '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Saved/saw18E1861A4E0268DAA25DE09C5C987FD1.tmp' to '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap'
+[2022.04.15-21.32.55:501][189]AssetCheck: New page: Asset Save: saw
+[2022.04.15-21.32.55:501][189]LogContentValidation: Display: Validating World /Game/saw.saw
+[2022.04.15-21.32.57:078][356]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.32.57:083][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.32.57:083][356]PIE: New page: PIE session: saw (Apr 15, 2022, 7:32:57 AM)
+[2022.04.15-21.32.57:083][356]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.32.57:088][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005804s)
+[2022.04.15-21.32.57:089][356]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.32.57:089][356]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2022.04.15-21.32.57:089][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.006705s)
+[2022.04.15-21.32.57:120][356]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.04.15-21.32.57:122][356]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.32.57:122][356]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.32.57:122][356]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.32.57:122][356]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.32.57:122][356]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.32.57:122][356]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.32.57:125][356]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.32.57:125][356]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.32.57:131][356]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.32.57:131][356]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.32.57:131][356]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.32.57:131][356]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.32.57:132][356]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.32.57:132][356]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.32.57:132][356]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.32.57:133][356]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.32.57:133][356]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.32.57:133][356]LogInit: FAudioDevice initialized.
+[2022.04.15-21.32.57:133][356]LogAudio: Display: Audio Device (ID: 9) registered with world 'saw'.
+[2022.04.15-21.32.57:149][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.32.57:149][356]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.32.57:153][356]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.32.57
+[2022.04.15-21.32.57:153][356]LogWorld: Bringing up level for play took: 0.003426
+[2022.04.15-21.32.57:153][356]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.04.15-21.32.57:158][356]PIE: Server logged in
+[2022.04.15-21.32.57:159][356]PIE: Play in editor total start time 0.077 seconds.
+[2022.04.15-21.32.59:244][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.32.59:245][586]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.32.59:245][586]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.32.59:250][586]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.32.59:250][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.32.59:261][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.32.59:270][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.32.59:298][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.32.59:299][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.32.59:305][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.04.15-21.32.59:328][587]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.04.15-21.33.03:482][ 60]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.04.15-21.33.05:059][246]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.04.15-21.33.05:828][335]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.33.05:832][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.33.05:832][335]PIE: New page: PIE session: saw (Apr 15, 2022, 7:33:05 AM)
+[2022.04.15-21.33.05:832][335]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.33.05:838][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005811s)
+[2022.04.15-21.33.05:839][335]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.33.05:839][335]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2022.04.15-21.33.05:839][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.006750s)
+[2022.04.15-21.33.05:869][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.04.15-21.33.05:870][335]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.33.05:871][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.33.05:871][335]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.33.05:871][335]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.33.05:871][335]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.33.05:871][335]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.33.05:874][335]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.33.05:874][335]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.33.05:880][335]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.33.05:880][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.33.05:880][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.33.05:880][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.33.05:880][335]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.33.05:880][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.33.05:880][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.33.05:881][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.33.05:881][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.33.05:881][335]LogInit: FAudioDevice initialized.
+[2022.04.15-21.33.05:881][335]LogAudio: Display: Audio Device (ID: 10) registered with world 'saw'.
+[2022.04.15-21.33.05:898][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.33.05:898][335]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.33.05:902][335]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.33.05
+[2022.04.15-21.33.05:902][335]LogWorld: Bringing up level for play took: 0.003239
+[2022.04.15-21.33.05:902][335]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2022.04.15-21.33.05:907][335]PIE: Server logged in
+[2022.04.15-21.33.05:908][335]PIE: Play in editor total start time 0.077 seconds.
+[2022.04.15-21.33.11:922][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.11:922][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.11:922][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.11:922][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.11:923][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.11:923][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.11:923][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.11:923][ 53]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:247][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:247][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:247][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:248][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:248][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:248][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:248][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.18:249][807]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.33.20:405][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.33.20:405][ 61]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.33.20:405][ 61]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.33.20:410][ 61]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.33.20:410][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.33.20:420][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.33.20:434][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.33.20:469][ 61]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.33.20:470][ 61]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.33.20:475][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.04.15-21.33.20:498][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.04.15-21.33.26:522][763]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw6)
+[2022.04.15-21.33.27:451][863]Cmd: DELETE
+[2022.04.15-21.33.27:451][863]Cmd: ACTOR DELETE
+[2022.04.15-21.33.27:453][863]LogEditorActor: Deleted Actor: saw_C
+[2022.04.15-21.33.27:482][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.04.15-21.33.27:484][863]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.04.15-21.33.28:673][  5]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw3)
+[2022.04.15-21.33.29:408][ 91]Cmd: DELETE
+[2022.04.15-21.33.29:408][ 91]Cmd: ACTOR DELETE
+[2022.04.15-21.33.29:410][ 91]LogEditorActor: Deleted Actor: saw_C
+[2022.04.15-21.33.29:441][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.04.15-21.33.29:442][ 91]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.04.15-21.33.30:643][235]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw)
+[2022.04.15-21.33.31:548][341]Cmd: DELETE
+[2022.04.15-21.33.31:548][341]Cmd: ACTOR DELETE
+[2022.04.15-21.33.31:550][341]LogEditorActor: Deleted Actor: saw_C
+[2022.04.15-21.33.31:581][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.04.15-21.33.31:582][341]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2022.04.15-21.33.33:899][618]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw4)
+[2022.04.15-21.33.34:585][698]Cmd: DELETE
+[2022.04.15-21.33.34:585][698]Cmd: ACTOR DELETE
+[2022.04.15-21.33.34:587][698]LogEditorActor: Deleted Actor: saw_C
+[2022.04.15-21.33.34:617][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.04.15-21.33.34:618][698]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.04.15-21.33.35:451][798]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw5)
+[2022.04.15-21.33.36:179][883]Cmd: DELETE
+[2022.04.15-21.33.36:179][883]Cmd: ACTOR DELETE
+[2022.04.15-21.33.36:181][883]LogEditorActor: Deleted Actor: saw_C
+[2022.04.15-21.33.36:213][883]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.04.15-21.33.36:214][883]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.04.15-21.33.37:739][ 66]LogEditorViewport: Clicking Background
+[2022.04.15-21.34.25:599][835]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw2)
+[2022.04.15-21.35.12:736][355]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.35.12:740][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.35.12:740][355]PIE: New page: PIE session: saw (Apr 15, 2022, 7:35:12 AM)
+[2022.04.15-21.35.12:740][355]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.35.12:747][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006764s)
+[2022.04.15-21.35.12:748][355]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.35.12:748][355]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2022.04.15-21.35.12:748][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.007714s)
+[2022.04.15-21.35.12:802][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.04.15-21.35.12:802][355]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.04.15-21.35.12:802][355]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.35.12:802][355]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.35.12:802][355]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.35.12:802][355]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.35.12:802][355]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.35.12:802][355]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.35.12:803][355]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.35.12:803][355]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.35.12:803][355]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.35.12:803][355]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.35.12:803][355]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.35.12:803][355]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.35.12:806][355]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.35.12:806][355]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.35.12:814][355]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.35.12:814][355]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.35.12:814][355]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.35.12:814][355]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.35.12:815][355]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.35.12:815][355]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.35.12:815][355]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.35.12:816][355]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.35.12:816][355]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.35.12:816][355]LogInit: FAudioDevice initialized.
+[2022.04.15-21.35.12:816][355]LogAudio: Display: Audio Device (ID: 11) registered with world 'saw'.
+[2022.04.15-21.35.12:834][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.35.12:834][355]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.35.12:837][355]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.35.12
+[2022.04.15-21.35.12:838][355]LogWorld: Bringing up level for play took: 0.003403
+[2022.04.15-21.35.12:838][355]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2022.04.15-21.35.12:843][355]PIE: Server logged in
+[2022.04.15-21.35.12:844][355]PIE: Play in editor total start time 0.104 seconds.
+[2022.04.15-21.35.21:594][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:0188
+[2022.04.15-21.35.21:594][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:594][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:019D
+[2022.04.15-21.35.21:594][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:594][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02B4
+[2022.04.15-21.35.21:594][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:594][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02C9
+[2022.04.15-21.35.21:594][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:0188
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:019D
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02B4
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02C9
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:0188
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:019D
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02B4
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:595][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02C9
+[2022.04.15-21.35.21:595][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.21:596][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:0188
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:019D
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]LogScript: Warning: Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02B4
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]LogScript: Warning: Accessed None
+	sawController_C /Game/UEDPIE_0_saw.saw:PersistentLevel.sawController_C_0
+	Function /Game/Blueprints/sawController.sawController_C:ExecuteUbergraph_sawController:02C9
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:596][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:597][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:598][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.21:598][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:598][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:598][399]PIE: Error: Blueprint Runtime Error: "Attempted to access fireSlimeBP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue_2, but fireSlimeBP_C_0 is pending kill". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:598][399]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  sawController Function:  Execute Ubergraph Saw Controller Graph:  EventGraph Node:  SpawnActor Small Fire Slime BP
+[2022.04.15-21.35.21:598][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:973][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:973][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:974][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:974][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:974][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:974][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:975][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.31:975][641]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:788][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:789][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:789][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:789][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:790][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:790][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:790][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.37:790][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:515][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:515][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:516][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:516][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:516][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:517][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:517][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.44:517][144]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:940][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:941][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:941][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:941][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:942][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:942][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:942][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.45:942][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:065][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:065][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:065][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:065][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:066][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:066][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:066][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.47:066][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2022.04.15-21.35.48:485][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.35.48:485][611]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.35.48:485][611]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.35.48:489][611]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.35.48:490][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.35.48:498][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.35.48:507][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.35.48:535][611]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.15-21.35.48:536][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.35.48:537][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.35.48:543][611]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.04.15-21.35.48:607][612]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.04.15-21.35.49:418][686]LogSlate: Window 'Message Log' being destroyed
+[2022.04.15-21.35.49:422][686]LogSlate: Window 'Message Log' being destroyed
+[2022.04.15-21.35.50:406][803]LogEditorViewport: Clicking on Actor (LMB): saw_C (saw3)
+[2022.04.15-21.35.56:158][476]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.35.56:163][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.35.56:163][476]PIE: New page: PIE session: saw (Apr 15, 2022, 7:35:56 AM)
+[2022.04.15-21.35.56:163][476]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.35.56:169][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006188s)
+[2022.04.15-21.35.56:170][476]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.35.56:170][476]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2022.04.15-21.35.56:170][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.007146s)
+[2022.04.15-21.35.56:202][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.04.15-21.35.56:204][476]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.04.15-21.35.56:204][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.35.56:204][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.35.56:204][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.35.56:204][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.35.56:204][476]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.35.56:204][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.35.56:204][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.35.56:204][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.35.56:205][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.35.56:205][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.35.56:205][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.35.56:205][476]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.35.56:207][476]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.35.56:207][476]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.35.56:213][476]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.35.56:213][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.35.56:213][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.35.56:213][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.35.56:214][476]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.35.56:214][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.35.56:214][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.35.56:215][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.35.56:215][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.35.56:215][476]LogInit: FAudioDevice initialized.
+[2022.04.15-21.35.56:215][476]LogAudio: Display: Audio Device (ID: 12) registered with world 'saw'.
+[2022.04.15-21.35.56:231][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.35.56:231][476]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.35.56:235][476]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.35.56
+[2022.04.15-21.35.56:235][476]LogWorld: Bringing up level for play took: 0.003337
+[2022.04.15-21.35.56:236][476]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2022.04.15-21.35.56:241][476]PIE: Server logged in
+[2022.04.15-21.35.56:242][476]PIE: Play in editor total start time 0.08 seconds.
+[2022.04.15-21.35.58:755][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.35.58:755][766]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.35.58:755][766]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.35.58:757][766]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.35.58:757][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.35.58:762][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.35.58:771][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.35.58:799][766]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.15-21.35.58:799][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.35.58:800][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.35.58:805][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.04.15-21.35.58:832][767]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.04.15-21.36.00:313][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/saw" FILE="../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.15-21.36.00:342][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.04.15-21.36.00:365][936]LogSavePackage: Moving '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Saved/saw9E2EC73348FA0054E8B038AF003B3A2A.tmp' to '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap'
+[2022.04.15-21.36.00:384][936]AssetCheck: New page: Asset Save: saw
+[2022.04.15-21.36.00:384][936]LogContentValidation: Display: Validating World /Game/saw.saw
+[2022.04.15-21.36.01:776][ 99]LogEditorViewport: Clicking Background
+[2022.04.15-21.36.09:903][ 57]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.15-21.36.09:907][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.15-21.36.09:907][ 57]PIE: New page: PIE session: saw (Apr 15, 2022, 7:36:09 AM)
+[2022.04.15-21.36.09:907][ 57]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_saw
+[2022.04.15-21.36.09:914][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006198s)
+[2022.04.15-21.36.09:914][ 57]LogAIModule: Creating AISystem for world saw
+[2022.04.15-21.36.09:915][ 57]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2022.04.15-21.36.09:915][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/saw.saw to /Game/UEDPIE_0_saw.saw (0.007186s)
+[2022.04.15-21.36.09:945][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.04.15-21.36.09:947][ 57]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.15-21.36.09:947][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.15-21.36.09:947][ 57]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.15-21.36.09:947][ 57]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.15-21.36.09:947][ 57]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.15-21.36.09:947][ 57]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.15-21.36.09:950][ 57]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.15-21.36.09:950][ 57]LogAudioMixer: Display: 1: FrontRight
+[2022.04.15-21.36.09:956][ 57]LogAudioMixer: Display: Using Audio Device Headphones (SteelSeries Arctis Pro Game)
+[2022.04.15-21.36.09:956][ 57]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.15-21.36.09:956][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.15-21.36.09:956][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.15-21.36.09:957][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.15-21.36.09:957][ 57]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.15-21.36.09:957][ 57]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.15-21.36.09:957][ 57]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.15-21.36.09:957][ 57]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.15-21.36.09:957][ 57]LogInit: FAudioDevice initialized.
+[2022.04.15-21.36.09:958][ 57]LogAudio: Display: Audio Device (ID: 13) registered with world 'saw'.
+[2022.04.15-21.36.09:969][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.36.09:969][ 57]LogLoad: Game class is 'sawGameMode_C'
+[2022.04.15-21.36.09:972][ 57]LogWorld: Bringing World /Game/UEDPIE_0_saw.saw up for play (max tick rate 0) at 2022.04.15-14.36.09
+[2022.04.15-21.36.09:973][ 57]LogWorld: Bringing up level for play took: 0.003320
+[2022.04.15-21.36.09:973][ 57]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2022.04.15-21.36.09:978][ 57]PIE: Server logged in
+[2022.04.15-21.36.09:979][ 57]PIE: Play in editor total start time 0.072 seconds.
+[2022.04.15-21.36.11:454][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.15-21.36.11:454][223]LogWorld: BeginTearingDown for /Game/UEDPIE_0_saw
+[2022.04.15-21.36.11:454][223]LogSlate: Window 'SlimeBallGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.15-21.36.11:460][223]LogWorld: UWorld::CleanupWorld for saw, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.36.11:460][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.36.11:470][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.15-21.36.11:474][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.36.11:502][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.36.11:503][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.36.11:510][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.04.15-21.36.11:527][224]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.04.15-21.36.12:675][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/saw" FILE="../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.15-21.36.12:704][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.04.15-21.36.12:727][357]LogSavePackage: Moving '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Saved/saw82C5E34B460E708DBCCC988BAB28B29B.tmp' to '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap'
+[2022.04.15-21.36.12:744][357]AssetCheck: New page: Asset Save: saw
+[2022.04.15-21.36.12:745][357]LogContentValidation: Display: Validating World /Game/saw.saw
+[2022.04.15-21.36.55:056][879]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gnico\Downloads\SlimeBall Background.jpg)
+[2022.04.15-21.36.55:099][879]Error: Texture is too large to import. The current maximun is 268,435,456 pixels
+[2022.04.15-21.36.55:103][879]Error: Texture import failed
+[2022.04.15-21.37.00:611][879]LogSlate: Window 'Message' being destroyed
+[2022.04.15-21.37.00:615][879]Message dialog closed, result: Ok, title: Message, text: Failed to import 'C:\Users\gnico\Downloads\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.37.00:615][879]LogAssetTools: Warning: Failed to import 'C:\Users\gnico\Downloads\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.37.05:448][223]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gnico\Downloads\SlimeBall Background.jpg)
+[2022.04.15-21.37.05:491][223]Error: Texture is too large to import. The current maximun is 268,435,456 pixels
+[2022.04.15-21.37.05:495][223]Error: Texture import failed
+[2022.04.15-21.37.06:837][223]LogSlate: Window 'Message' being destroyed
+[2022.04.15-21.37.06:840][223]Message dialog closed, result: Ok, title: Message, text: Failed to import 'C:\Users\gnico\Downloads\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.37.06:840][223]LogAssetTools: Warning: Failed to import 'C:\Users\gnico\Downloads\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.37.20:691][895]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gnico\OneDrive\Desktop\SlimeBall Background.jpg)
+[2022.04.15-21.37.20:735][895]Error: Texture is too large to import. The current maximun is 268,435,456 pixels
+[2022.04.15-21.37.20:738][895]Error: Texture import failed
+[2022.04.15-21.37.22:640][895]LogSlate: Window 'Message' being destroyed
+[2022.04.15-21.37.22:643][895]Message dialog closed, result: Ok, title: Message, text: Failed to import 'C:\Users\gnico\OneDrive\Desktop\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.37.22:644][895]LogAssetTools: Warning: Failed to import 'C:\Users\gnico\OneDrive\Desktop\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.37.35:655][124]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gnico\OneDrive\Desktop\SlimeBall Background.jpg)
+[2022.04.15-21.37.35:723][124]Error: Texture is too large to import. The current maximun is 268,435,456 pixels
+[2022.04.15-21.37.35:727][124]Error: Texture import failed
+[2022.04.15-21.37.37:232][124]LogSlate: Window 'Message' being destroyed
+[2022.04.15-21.37.37:235][124]Message dialog closed, result: Ok, title: Message, text: Failed to import 'C:\Users\gnico\OneDrive\Desktop\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.37.37:235][124]LogAssetTools: Warning: Failed to import 'C:\Users\gnico\OneDrive\Desktop\SlimeBall Background.jpg'. Failed to create asset '/Game/Blueprints/SlimeBall_Background'.
+Please see Output Log for details.
+[2022.04.15-21.38.15:804][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/saw" FILE="../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.15-21.38.15:834][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.04.15-21.38.15:861][361]LogSavePackage: Moving '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Saved/saw8BF353764B7367E4305089964DA11C61.tmp' to '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/saw.umap'
+[2022.04.15-21.38.15:879][361]AssetCheck: New page: Asset Save: saw
+[2022.04.15-21.38.15:879][361]LogContentValidation: Display: Validating World /Game/saw.saw
+[2022.04.15-21.38.28:735][148]LogSlate: Window 'Message' being destroyed
+[2022.04.15-21.38.28:738][148]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/friendlySlimeMAT.friendlySlimeMAT
+(Selecting 'No' will cause all changes to be lost!)
+[2022.04.15-21.38.29:018][148]LogMaterial: Display: Missing cached shadermap for friendlySlimeMAT in PCD3D_SM5, Default, SM5 (DDC key hash: 2B0B7E10F5B14ADA5AB204D9D86B3D3373E0A6C2), compiling. 
+[2022.04.15-21.38.29:036][148]LogMaterial: Display: Missing cached shadermap for friendlySlimeMAT in PCD3D_SM5, Default, SM5 (DDC key hash: 7ACC859F42E63B1FC736C33E71A3168F0A4716D9), compiling. 
+[2022.04.15-21.38.29:068][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.04.15-21.38.29:186][148]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Normal' priority
+[2022.04.15-21.38.29:186][148]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Total job queries 643, among them cache hits 357 (55.52%)
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: Tracking 270 distinct input hashes that result in 140 distinct outputs (51.85%)
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: RAM used: 0.94 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2022.04.15-21.38.29:187][148]LogShaderCompilers: Display: ================================================
+[2022.04.15-21.38.29:626][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.04.15-21.38.32:902][148]LogSlate: Window 'Message' being destroyed
+[2022.04.15-21.38.32:905][148]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/Boss2Mat.Boss2Mat
+(Selecting 'No' will cause all changes to be lost!)
+[2022.04.15-21.38.33:175][148]LogMaterial: Display: Missing cached shadermap for Boss2Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 3AC3969BF924D1CD5191CDA54D5D7AC742658319), compiling. 
+[2022.04.15-21.38.33:192][148]LogMaterial: Display: Missing cached shadermap for Boss2Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 233478A6F89E40215551F9F5FDFBEE62015D1D2A), compiling. 
+[2022.04.15-21.38.33:228][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.04.15-21.38.33:380][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.04.15-21.38.33:414][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.04.15-21.38.34:601][148]LogSlate: Window 'Save Content' being destroyed
+[2022.04.15-21.38.34:629][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Boss2Mat" FILE="../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/Materials/Boss2Mat.uasset" SILENT=true
+[2022.04.15-21.38.34:635][148]LogSavePackage: Moving '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Saved/Boss2Mat55F8DFE94B89D1B978CCC8A5966B003C.tmp' to '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/Materials/Boss2Mat.uasset'
+[2022.04.15-21.38.34:654][148]LogSavePackage: Moving '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Saved/friendlySlimeMAT51D813DE45B786F34F0D10B265144657.tmp' to '../../../../../../Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/Materials/friendlySlimeMAT.uasset'
+[2022.04.15-21.38.34:687][148]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.34:687][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.38.34:805][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.15-21.38.34:805][148]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.34:805][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.38.34:848][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.15-21.38.34:848][148]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.34:848][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.38.34:898][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.15-21.38.34:898][148]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.34:898][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.38.34:947][148]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.34:947][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.38.34:972][148]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.34:972][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.15-21.38.34:998][148]LogSlate: Window 'SlimeBallGame - Unreal Editor' being destroyed
+[2022.04.15-21.38.35:106][148]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.15-21.38.35:106][148]LogContentValidation: Display: Validating Material /Game/Materials/friendlySlimeMAT.friendlySlimeMAT
+[2022.04.15-21.38.35:106][148]LogContentValidation: Display: Validating Material /Game/Materials/Boss2Mat.Boss2Mat
+[2022.04.15-21.38.35:107][149]Cmd: QUIT_EDITOR
+[2022.04.15-21.38.35:107][149]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.04.15-21.38.35:109][149]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.04.15-21.38.35:206][149]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.04.15-21.38.35:206][149]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.04.15-21.38.35:206][149]LogAudio: Display: Audio Device unregistered from world 'saw'.
+[2022.04.15-21.38.35:206][149]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.38.35:207][149]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.15-21.38.35:230][149]LogAudio: Display: Audio Device Manager Shutdown
+[2022.04.15-21.38.35:231][149]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.15-21.38.35:235][149]LogExit: Preparing to exit.
+[2022.04.15-21.38.35:314][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.04.15-21.38.35:631][149]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:634][149]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:638][149]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:641][149]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:646][149]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:650][149]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:654][149]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:657][149]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:660][149]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:663][149]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:666][149]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:670][149]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:674][149]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:678][149]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:681][149]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:684][149]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:688][149]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:702][149]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [C:/Users/gnico/OneDrive/Documents/GitHub/SlimeBallGame/SlimeBallGame/Content/] 
+[2022.04.15-21.38.35:757][149]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.04.15-21.38.35:771][149]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.15-21.38.35:772][149]LogExit: Editor shut down
+[2022.04.15-21.38.35:773][149]LogExit: Transaction tracking system shut down
+[2022.04.15-21.38.36:231][149]LogExit: Object subsystem successfully closed.
+[2022.04.15-21.38.36:252][149]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.15-21.38.36:252][149]LogShaderCompilers: Display: Total job queries 669, among them cache hits 383 (57.25%)
+[2022.04.15-21.38.36:252][149]LogShaderCompilers: Display: Tracking 276 distinct input hashes that result in 145 distinct outputs (52.54%)
+[2022.04.15-21.38.36:252][149]LogShaderCompilers: Display: RAM used: 0.95 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2022.04.15-21.38.36:252][149]LogShaderCompilers: Display: ================================================
+[2022.04.15-21.38.36:264][149]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.04.15-21.38.36:307][149]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (878)
+[2022.04.15-21.38.36:307][149]LogModuleManager: Shutting down and abandoning module Voice (876)
+[2022.04.15-21.38.36:308][149]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (874)
+[2022.04.15-21.38.36:308][149]LogModuleManager: Shutting down and abandoning module BlueprintGraph (872)
+[2022.04.15-21.38.36:308][149]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (870)
+[2022.04.15-21.38.36:308][149]LogModuleManager: Shutting down and abandoning module SceneOutliner (868)
+[2022.04.15-21.38.36:308][149]LogModuleManager: Shutting down and abandoning module AddContentDialog (866)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module WidgetCarousel (865)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module EditorWidgets (862)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module StatsViewer (860)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (858)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (856)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module AutomationWorker (854)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module SteamVREditor (852)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module OculusMR (850)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module OpenXRInput (848)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (846)
+[2022.04.15-21.38.36:313][149]LogModuleManager: Shutting down and abandoning module TakeRecorder (845)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (842)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module TakesCore (840)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module GooglePADEditor (838)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (836)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module PlanarCut (834)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (832)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (830)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (828)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (826)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module CharacterAI (824)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (822)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (820)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (818)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (816)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module WebMMedia (814)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (812)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (810)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module SequenceRecorder (809)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (806)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (804)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (802)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (800)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (798)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (796)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (794)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (792)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (790)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (788)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (786)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module TextureAlignMode (784)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module BspMode (782)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module GeometryMode (780)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module SmartSnapping (778)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module SessionServices (776)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module MeshPaint (774)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (772)
+[2022.04.15-21.38.36:314][149]LogModuleManager: Shutting down and abandoning module FoliageEdit (770)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module LandscapeEditor (768)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module MeshPaintMode (766)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (764)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module ActorPickerMode (762)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module PlacementMode (760)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module ViewportSnapping (758)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module ViewportInteraction (756)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module ClothPainter (754)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (753)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module LogVisualizer (750)
+[2022.04.15-21.38.36:315][149]LogModuleManager: Shutting down and abandoning module IntroTutorials (748)
+[2022.04.15-21.38.36:316][149]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (747)
+[2022.04.15-21.38.36:316][149]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (744)
+[2022.04.15-21.38.36:316][149]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (742)
+[2022.04.15-21.38.36:316][149]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (740)
+[2022.04.15-21.38.36:316][149]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (739)
+[2022.04.15-21.38.37:347][149]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (736)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (734)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (732)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (730)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module TraceInsights (728)
+[2022.04.15-21.38.37:348][149]MemoryProfiler: Shutdown
+[2022.04.15-21.38.37:348][149]NetworkingProfiler: Shutdown
+[2022.04.15-21.38.37:348][149]LoadingProfiler: Shutdown
+[2022.04.15-21.38.37:348][149]TimingProfiler: Shutdown
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module TraceServices (727)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (724)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (722)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module InputBindingEditor (720)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module MergeActors (718)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (716)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module LocalizationService (715)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module HardwareTargeting (712)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (710)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module UndoHistory (708)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module XmlParser (706)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module Blutility (704)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (702)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (701)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (698)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (697)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module SettingsEditor (694)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module ProjectLauncher (692)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module SessionFrontend (690)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module ProfilerClient (688)
+[2022.04.15-21.38.37:348][149]LogModuleManager: Shutting down and abandoning module DeviceManager (686)
+[2022.04.15-21.38.37:349][149]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (685)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module AutomationController (682)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module AutomationWindow (680)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module Layers (678)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (676)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module DetailCustomizations (674)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module PackagesDialog (672)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (670)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module Persona (668)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (667)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module AnimGraph (665)
+[2022.04.15-21.38.37:380][149]LogModuleManager: Shutting down and abandoning module Kismet (662)
+[2022.04.15-21.38.37:400][149]LogModuleManager: Shutting down and abandoning module KismetWidgets (661)
+[2022.04.15-21.38.37:400][149]LogModuleManager: Shutting down and abandoning module GraphEditor (658)
+[2022.04.15-21.38.37:400][149]LogModuleManager: Shutting down and abandoning module StructViewer (656)
+[2022.04.15-21.38.37:400][149]LogModuleManager: Shutting down and abandoning module ClassViewer (654)
+[2022.04.15-21.38.37:400][149]LogModuleManager: Shutting down and abandoning module Toolbox (652)
+[2022.04.15-21.38.37:400][149]LogModuleManager: Shutting down and abandoning module ModuleUI (650)
+[2022.04.15-21.38.37:400][149]LogModuleManager: Shutting down and abandoning module OutputLog (648)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module GammaUI (646)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module Documentation (644)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module LiveCoding (642)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module LevelSequence (640)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (638)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module MovieScene (636)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (634)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module LauncherPlatform (632)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module AnalyticsET (630)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module PortalServices (628)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module PortalRpc (626)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module MessagingRpc (624)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (622)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module AudioMixerCore (621)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module AIModule (618)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module GameplayDebugger (617)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module AITestSuite (615)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module NavigationSystem (613)
+[2022.04.15-21.38.37:402][149]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2022.04.15-21.38.37:406][149]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2022.04.15-21.38.37:491][149]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module OculusEditor (602)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module OculusInput (600)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (598)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (596)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (594)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (590)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (588)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module UObjectPlugin (586)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (584)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (582)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module PluginUtils (580)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (578)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (576)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module GitSourceControl (574)
+[2022.04.15-21.38.37:492][149]LogModuleManager: Shutting down and abandoning module SourceControl (573)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (570)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (568)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module SynthesisEditor (566)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module Synthesis (564)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (562)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (560)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module OpenXREditor (558)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module TakeSequencer (556)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module TakeMovieScene (554)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (552)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GooglePAD (550)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (548)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module EditableMesh (546)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (544)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module CableComponent (542)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AudioCapture (540)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (539)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AssetTags (536)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (534)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AppleImageUtils (532)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AndroidPermission (530)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ScreenshotTools (528)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (526)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (524)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (522)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MotoSynth (520)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (518)
+[2022.04.15-21.38.37:493][149]LogOpenImageDenoise: OIDN shutting down
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MeshConversion (516)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module DynamicMesh (514)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (512)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometricObjects (510)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module TemplateSequence (508)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (506)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (505)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (502)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (500)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (498)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (496)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (494)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ChaosNiagara (492)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (490)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module FractureEditor (488)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (487)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (484)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AutomationUtils (482)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module BackChannel (480)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AlembicImporter (478)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module AlembicLibrary (477)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCache (476)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (475)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MediaCompositing (470)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module ImgMedia (468)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (466)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (464)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (462)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (460)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (458)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (456)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (454)
+[2022.04.15-21.38.37:493][149]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (452)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (450)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (448)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module PluginBrowser (446)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (444)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module CurveEditorTools (442)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (440)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module CryptoKeys (438)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (436)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (434)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (432)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (430)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (428)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (426)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (424)
+[2022.04.15-21.38.37:494][149]LogModuleManager: Shutting down and abandoning module LiveLink (422)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (420)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (418)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module Paper2DEditor (416)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (414)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (412)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (410)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module AnimationSharing (408)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module SignificanceManager (406)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module SoundFields (404)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (402)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (400)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (398)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (394)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (392)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (390)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (388)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module ActorSequence (386)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (384)
+[2022.04.15-21.38.38:366][149]LogModuleManager: Shutting down and abandoning module UdpMessaging (382)
+[2022.04.15-21.38.38:468][149]LogModuleManager: Shutting down and abandoning module TcpMessaging (380)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (378)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (376)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (374)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (372)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (370)
+[2022.04.15-21.38.38:569][149]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (368)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (366)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (364)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (362)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapController (360)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (358)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module MagicLeapAR (356)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (354)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module SignalProcessing (351)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module NiagaraCore (346)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (344)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (342)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module FacialAnimation (340)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module DataValidation (338)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (336)
+[2022.04.15-21.38.38:569][149]LogModuleManager: Shutting down and abandoning module LevelEditor (335)
+[2022.04.15-21.38.38:571][149]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (334)
+[2022.04.15-21.38.38:571][149]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (332)
+[2022.04.15-21.38.38:571][149]LogModuleManager: Shutting down and abandoning module MainFrame (330)
+[2022.04.15-21.38.38:571][149]LogModuleManager: Shutting down and abandoning module HotReload (329)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module ToolMenus (325)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module ContentBrowser (323)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module ContentBrowserData (322)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module TreeMap (319)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module GameplayCameras (316)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (314)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (312)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2022.04.15-21.38.38:572][149]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2022.04.15-21.38.38:577][149]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2022.04.15-21.38.38:578][149]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module Core (248)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2022.04.15-21.38.38:579][149]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2022.04.15-21.38.38:580][149]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2022.04.15-21.38.38:580][149]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2022.04.15-21.38.38:580][149]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2022.04.15-21.38.38:581][149]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2022.04.15-21.38.38:581][149]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2022.04.15-21.38.38:581][149]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2022.04.15-21.38.38:581][149]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2022.04.15-21.38.38:582][149]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2022.04.15-21.38.38:583][149]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.04.15-21.38.38:583][149]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2022.04.15-21.38.38:583][149]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2022.04.15-21.38.38:588][149]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2022.04.15-21.38.38:588][149]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2022.04.15-21.38.38:588][149]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2022.04.15-21.38.38:588][149]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2022.04.15-21.38.38:588][149]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2022.04.15-21.38.38:596][149]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2022.04.15-21.38.38:599][149]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2022.04.15-21.38.38:615][149]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2022.04.15-21.38.38:615][149]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2022.04.15-21.38.38:615][149]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2022.04.15-21.38.38:615][149]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2022.04.15-21.38.38:616][149]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2022.04.15-21.38.38:616][149]LogHMD: Freeing OpenVRDLLHandle.
+[2022.04.15-21.38.38:617][149]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.04.15-21.38.38:617][149]LogModuleManager: Shutting down and abandoning module PixWinPlugin (108)
+[2022.04.15-21.38.38:617][149]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (106)
+[2022.04.15-21.38.38:617][149]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.04.15-21.38.38:617][149]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (104)
+[2022.04.15-21.38.38:617][149]LogModuleManager: Shutting down and abandoning module OpenXRAR (102)
+[2022.04.15-21.38.38:617][149]LogModuleManager: Shutting down and abandoning module AugmentedReality (101)
+[2022.04.15-21.38.38:617][149]LogModuleManager: Shutting down and abandoning module OpenXRHMD (98)
+[2022.04.15-21.38.38:618][149]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.04.15-21.38.38:618][149]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.04.15-21.38.38:618][149]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.04.15-21.38.38:618][149]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.04.15-21.38.38:619][149]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.04.15-21.38.38:619][149]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.04.15-21.38.38:638][149]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.04.15-21.38.38:638][149]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.04.15-21.38.38:638][149]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B22BC9D59-4127-6567-69BE-8AB086BD51BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=1ba7f64c4b8b35d6118a8ba55983a34b%7Cbb0e8d896fbf4f519ecb449ee0c55879%7Cf222949f-eff8-4840-9ca7-e3a530d68542&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.04.15-21.38.38:638][149]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.04.15-21.38.38:654][149]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.04.15-21.38.38:656][149]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2022.04.15-21.38.38:656][149]LogModuleManager: Shutting down and abandoning module ChaosCloth (72)
+[2022.04.15-21.38.38:656][149]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2022.04.15-21.38.38:657][149]LogModuleManager: Shutting down and abandoning module Media (69)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module MediaInfo (68)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (64)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module MLSDK (62)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2022.04.15-21.38.38:658][149]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.04.15-21.38.38:659][149]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.04.15-21.38.38:662][149]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.04.15-21.38.38:662][149]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.04.15-21.38.38:706][149]LogD3D11RHI: Shutdown
+[2022.04.15-21.38.38:706][149]LogD3D11RHI: CleanupD3DDevice
+[2022.04.15-21.38.38:712][149]LogExit: Exiting.
+[2022.04.15-21.38.38:730][149]Log file closed, 04/15/22 14:38:38
